@@ -1,4 +1,5 @@
 import Avatar from "../img/img.jpg";
+import pdf from '../doc/curriculo.pdf';
 import Social from "./Social"
 import Info from "./Info"
 
@@ -11,7 +12,7 @@ const Sidebar = () => {
         <p className="title">Desenvolvedor</p>
         <Social />
         <Info />
-        <a href="../doc/curriculo.pdf" className="btn">Download currículo</a>
+        <a href={pdf} className="btn">Download currículo</a>
     </aside>
   )
 }
